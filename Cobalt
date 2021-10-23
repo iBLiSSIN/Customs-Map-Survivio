@@ -90,7 +90,7 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(cobalt).forEach(function(key51) {
     if(key51.match(/biome/g)) {
-        inferno[key51].colors.grass = 0x8E9BA4;
+        cobalt[key51].colors.grass = 0x8E9BA4;
     }
 })
 })();
