@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         INFERNO
+// @name         cobalt
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @icon         https://surviv.io/img/gui/inferno.svg
@@ -90,7 +90,7 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(cobalt).forEach(function(key51) {
     if(key51.match(/biome/g)) {
-        inferno[key51].colors.grass = 3947580;
+        inferno[key51].colors.grass = 0x8E9BA4;
     }
 })
 })();
