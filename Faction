@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         cobalt
+// @name         faction
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @icon         https://surviv.io/img/gui/inferno.svg
@@ -90,7 +90,7 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(faction).forEach(function(key51) {
     if(key51.match(/biome/g)) {
-        faction[key51].colors.grass = 0x8E9BA4;
+        faction[key51].colors.grass = 0x788A52;
     }
 })
 })();
