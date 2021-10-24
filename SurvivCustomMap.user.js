@@ -145,34 +145,8 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(flamethrower).forEach(function(key52) {
     if(key52.match(/mac10/g)) {
-        flamethrower[key52].name = "Flamethrower";
-        flamethrower[key52].bulletType = "bullet_m9A17";
-
-        flamethrower[key52].lootImg.sprite = "loot-weapon-m9A17.img";
-        flamethrower[key52].lootImg.tint = 65280;
-        flamethrower[key52].lootImg.border = "loot-circle-outer-01.img";
-        flamethrower[key52].lootImg.borderTint = 0;
-        flamethrower[key52].lootImg.scale = 0.3;
-
         flamethrower[key52].worldImg.sprite = "gun-m9a17-01.img";
-        flamethrower[key52].worldImg.scale.x = 0.5;
-        flamethrower[key52].worldImg.scale.y = 0.4;
-        flamethrower[key52].worldImg.tint = 16777215;
-        flamethrower[key52].worldImg.recoil = 0.3;
-        flamethrower[key52].worldImg.handsBelow = ![];
-        flamethrower[key52].worldImg.leftHandOffset.x = 15;
-        flamethrower[key52].worldImg.leftHandOffset.y = -(10);
-
-        flamethrower[key52].particle.shellScale = 0;
-        flamethrower[key52].particle.shellOffset = 0;
-
-        flamethrower[key52].sound.shoot = "m9a17_01";
-        flamethrower[key52].sound.reload = "m9a17_reload_01";
-        flamethrower[key52].sound.pickup = "gun_pickup_01";
-        flamethrower[key52].sound.empty = "empty_fire_01";
-        flamethrower[key52].sound.deploy = "potato_smg_switch_01";
-
-
+        flamethrower[key52].worldImg.sprite = "gun-m9a17-01.img";
     }
 })
 })();
