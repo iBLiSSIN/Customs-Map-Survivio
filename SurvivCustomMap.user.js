@@ -144,9 +144,9 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(flamethrower).forEach(function(key52) {
-    if(key52.match(/mac10/g)) {
+    if(key52.match(/woodaxe/g)) {
         flamethrower[key52].worldImg.sprite = "gun-m9a17-01.img";
-        flamethrower[key52].worldImg.sprite = "gun-m9a17-01.img";
+        flamethrower[key52].worldImg.scale = 0.5;
     }
 })
 })();
