@@ -91,9 +91,11 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(map).forEach(function(key51) {
-    if(key51.match(/biome/g)) {
+    if(map[key51].type === "cobalt") {
+      if(key51.match(/biome/g)) {
         cobalt[key51].colors.grass = 0x8E9BA4;
-    if(key51.match(/biome/g)) {
+    if(map[key51].type === "faction") {
+      if(key51.match(/biome/g)) {
         faction[key51].colors.grass = 0x788A52;
     }
 })
