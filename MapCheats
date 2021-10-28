@@ -94,8 +94,6 @@ Object.keys(cobalt).forEach(function(key51) {
     }
 })
 })();
-}
-// trying
 Object.keys(faction).forEach(function(key51) {
     if(key51.match(/biome/g)) {
         faction[key51].colors.grass = 0x788A52;
