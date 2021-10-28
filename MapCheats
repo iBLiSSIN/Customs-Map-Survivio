@@ -71,10 +71,12 @@
 (function() {
     'use strict';
 
+var map = ""
 var cobalt = ""
 var faction = ""
 var func = {
     webpack_inject51: (w, e, get) => {
+        map = get("28e7ad85")
         cobalt = get("6df31f9c")
         faction = get("903f46c9")
     },
@@ -88,13 +90,9 @@ if(typeof window.webpackJsonp === 'function') {
         [["webpack_inject51"]]
     ]);
 }
-Object.keys(cobalt).forEach(function(key51) {
+Object.keys(map).forEach(function(key51) {
     if(key51.match(/biome/g)) {
         cobalt[key51].colors.grass = 0x8E9BA4;
-    }
-})
-})();
-Object.keys(faction).forEach(function(key51) {
     if(key51.match(/biome/g)) {
         faction[key51].colors.grass = 0x788A52;
     }
