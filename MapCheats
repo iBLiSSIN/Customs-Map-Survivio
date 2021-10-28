@@ -72,9 +72,11 @@
     'use strict';
 
 var cobalt = ""
+var faction = ""
 var func = {
     webpack_inject51: (w, e, get) => {
         cobalt = get("6df31f9c")
+        faction = get("903f46c9")
     },
 };
 if(typeof window.webpackJsonp === 'function') {
@@ -92,26 +94,8 @@ Object.keys(cobalt).forEach(function(key51) {
     }
 })
 })();
-// 50v50 map
-
-(function() {
-    'use strict';
-
-var faction = ""
-var func = {
-    webpack_inject51: (w, e, get) => {
-        faction = get("903f46c9")
-    },
-};
-if(typeof window.webpackJsonp === 'function') {
-    window.webpackJsonp([0], func, ["webpack_inject51"]);
-} else {
-    window.webpackJsonp.push([
-        ["webpack_inject51"],
-        func,
-        [["webpack_inject51"]]
-    ]);
 }
+// trying
 Object.keys(faction).forEach(function(key51) {
     if(key51.match(/biome/g)) {
         faction[key51].colors.grass = 0x788A52;
