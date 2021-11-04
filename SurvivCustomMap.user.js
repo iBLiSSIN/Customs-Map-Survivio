@@ -96,7 +96,7 @@ Object.keys(inferno).forEach(function(key51) {
         inferno[key51].colors.beach = 5459269;
         inferno[key51].colors.riverbank = 2434341;
         inferno[key51].colors.grass = 3947580;
-        inferno[key51].colors.underground = 1772803;
+        inferno[key51].colors.underground = 0xcdb35b;
         inferno[key51].colors.playerSubmerge = 16777215;
         inferno[key51].colors.playerGhillie = 8630096;
 
