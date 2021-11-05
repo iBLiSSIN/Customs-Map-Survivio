@@ -11,9 +11,8 @@
 // ==/UserScript==
 (function() {
     'use strict';
-var inferno = ""
-var flamethrower = ""
-var building = ""
+var cobalt = ""
+var faction = ""
 var func = {
     webpack_inject1: (w, e, get) => {
         cobalt = get("6df31f9c")
