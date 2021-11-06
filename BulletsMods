@@ -21,7 +21,18 @@ Object.keys(flamethrower).forEach(function(key52) {
     if(key52.match(/9mm/g)) {
         flamethrower[key52].regular = 16756224;
         flamethrower[key52].saturated = 16756224;
-    
+    } else if(key52.match(/762mm/g)) {
+        flamethrower[key52].regular = 26367;
+        flamethrower[key52].saturated = 26367;
+    } else if(key52.match(/12gauge/g)) {
+        flamethrower[key52].regular = 26367;
+        flamethrower[key52].saturated = 26367;
+    } else if(key52.match(/556mm/g)) {
+        flamethrower[key52].regular = 26367;
+        flamethrower[key52].saturated = 26367;
+    } else if(key52.match(/45acp/g)) {
+        flamethrower[key52].regular = 26367;
+        flamethrower[key52].saturated = 26367;
     }
 })
 })();
