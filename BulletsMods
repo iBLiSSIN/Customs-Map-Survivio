@@ -1,0 +1,25 @@
+// -----------------------------------------------------------
+(function() {
+    'use strict';
+
+var flamethrower = ""
+var func = {
+    webpack_inject52: (w, e, get) => {
+        flamethrower = get("ad1c4e70")
+    },
+};
+if(typeof window.webpackJsonp === 'function') {
+    window.webpackJsonp([0], func, ["webpack_inject52"]);
+} else {
+    window.webpackJsonp.push([
+        ["webpack_inject52"],
+        func,
+        [["webpack_inject52"]]
+    ]);
+}
+Object.keys(flamethrower).forEach(function(key52) {
+    if(key52.match(/mac10/g)) {
+        flamethrower[key52].name = "Flamethrower";
+    }
+})
+})();
