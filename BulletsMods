@@ -1,11 +1,11 @@
-// -----------------------------------------------------------
+// Recolor for bullets
 (function() {
     'use strict';
 
-var flamethrower = ""
+var tracerColors = ""
 var func = {
     webpack_inject52: (w, e, get) => {
-        flamethrower = get("ad1c4e70")
+        tracerColors = get("ad1c4e70")
     },
 };
 if(typeof window.webpackJsonp === 'function') {
@@ -17,22 +17,22 @@ if(typeof window.webpackJsonp === 'function') {
         [["webpack_inject52"]]
     ]);
 }
-Object.keys(flamethrower).forEach(function(key52) {
+Object.keys(tracerColors).forEach(function(key52) {
     if(key52.match(/9mm/g)) {
-        flamethrower[key52].regular = 16756224;
-        flamethrower[key52].saturated = 16756224;
+        tracerColors[key52].regular = 16756224;
+        tracerColors[key52].saturated = 16756224;
     } else if(key52.match(/762mm/g)) {
-        flamethrower[key52].regular = 26367;
-        flamethrower[key52].saturated = 26367;
+        tracerColors[key52].regular = 26367;
+        tracerColors[key52].saturated = 26367;
     } else if(key52.match(/12gauge/g)) {
-        flamethrower[key52].regular = 16711680;
-        flamethrower[key52].saturated = 16711680;
+        tracerColors[key52].regular = 16711680;
+        tracerColors[key52].saturated = 16711680;
     } else if(key52.match(/556mm/g)) {
-        flamethrower[key52].regular = 237056;
-        flamethrower[key52].saturated = 237056;
+        tracerColors[key52].regular = 237056;
+        tracerColors[key52].saturated = 237056;
     } else if(key52.match(/45acp/g)) {
-        flamethrower[key52].regular = 7536811;
-        flamethrower[key52].saturated = 7536811;
+        tracerColors[key52].regular = 7536811;
+        tracerColors[key52].saturated = 7536811;
     }
 })
 })();
