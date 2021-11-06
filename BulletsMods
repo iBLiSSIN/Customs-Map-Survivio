@@ -18,8 +18,10 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(flamethrower).forEach(function(key52) {
-    if(key52.match(/mac10/g)) {
-        flamethrower[key52].name = "Flamethrower";
+    if(key52.match(/9mm/g)) {
+        flamethrower[key52].regular = 16756224;
+        flamethrower[key52].saturated = 16756224;
+    
     }
 })
 })();
