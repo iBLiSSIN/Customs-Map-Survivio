@@ -27,7 +27,7 @@ Object.keys(tracerColors).forEach(function(key3) {
     } else if(key52.match(/m1100|m870|mp220|saiga|spas12|m1014|hawk12g/g)) {
         tracerColors[key3].bulletColor = 16711680;
         tracerColors[key3].bulletTint= 16711680;
-    } else if(key52.match(/556mm/g)) {
+    } else if(key52.match(/famas|hk416|m249|qbb97|mk12|m4a1|scout_elite|l86/g)) {
         tracerColors[key3].bulletColor = 237056;
         tracerColors[key3].bulletTint = 237056;
     } else if(key52.match(/45acp/g)) {
