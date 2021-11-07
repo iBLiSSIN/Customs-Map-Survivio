@@ -21,7 +21,7 @@ Object.keys(tracerColors).forEach(function(key3) {
     if(key52.match(/m9|p30l|mp5|vector|glock|mac10|ump9|m93r|scorpion|vss/g)) {
         tracerColors[key3].bulletColor = 16756224;
         tracerColors[key3].bulletTint = 16756224;
-    } else if(key52.match(/762mm/g)) {
+    } else if(key52.match(/ak|ot38|ots38|m39|dp28|mosin|scar|bar/g)) {
         tracerColors[key3].bulletColor = 26367;
         tracerColors[key3].bulletTint = 26367;
     } else if(key52.match(/12gauge/g)) {
