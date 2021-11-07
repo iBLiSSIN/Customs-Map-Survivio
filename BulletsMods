@@ -19,20 +19,20 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(tracerColors).forEach(function(key3) {
     if(key52.match(/9mm/g)) {
-        tracerColors[key3].regular = 16756224;
-        tracerColors[key3].saturated = 16756224;
+        tracerColors[key3].bulletColor = 16756224;
+        tracerColors[key3].bulletTint = 16756224;
     } else if(key52.match(/762mm/g)) {
-        tracerColors[key3].regular = 26367;
-        tracerColors[key3].saturated = 26367;
+        tracerColors[key3].bulletColor = 26367;
+        tracerColors[key3].bulletTint = 26367;
     } else if(key52.match(/12gauge/g)) {
-        tracerColors[key3].regular = 16711680;
-        tracerColors[key3].saturated = 16711680;
+        tracerColors[key3].bulletColor = 16711680;
+        tracerColors[key3].bulletTint= 16711680;
     } else if(key52.match(/556mm/g)) {
-        tracerColors[key3].regular = 237056;
-        tracerColors[key3].saturated = 237056;
+        tracerColors[key3].bulletColor = 237056;
+        tracerColors[key3].bulletTint = 237056;
     } else if(key52.match(/45acp/g)) {
-        tracerColors[key3].regular = 7536811;
-        tracerColors[key3].saturated = 7536811;
+        tracerColors[key3].bulletColor = 7536811;
+        tracerColors[key3].bulletTint= 7536811;
     }
 })
 })();
