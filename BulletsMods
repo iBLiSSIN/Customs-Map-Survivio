@@ -18,7 +18,7 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(tracerColors).forEach(function(key3) {
-    if(key52.match(/9mm/g)) {
+    if(key52.match(/m9|p30l|mp5|vector|glock|mac10|ump9|m93r|scorpion|vss/g)) {
         tracerColors[key3].bulletColor = 16756224;
         tracerColors[key3].bulletTint = 16756224;
     } else if(key52.match(/762mm/g)) {
