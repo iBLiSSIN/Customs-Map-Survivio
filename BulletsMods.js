@@ -28,6 +28,6 @@ Object.keys(ammo).forEach(function(key) {
         ammo[key].worldImg.sprite =  
     } else if(ammo[key].type === "ammo") {
         ammo[key].worldImg.sprite =  
-        }
+    }
 })
 })();
