@@ -18,15 +18,15 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(ammo).forEach(function(key) {
-    if(ammo[key].type === "ammo") {
+    if(ammo[key].type === "9mm") {
         ammo[key].worldImg.sprite =  "https://raw.githubusercontent.com/iBLiSSIN/SurvivMods/main/img%20for%20change/6A7B426F-8765-41B3-B134-9BBF9683029F.png"
-    } else if(ammo[key].type === "ammo") {
+    } else if(ammo[key].type === "762mm") {
         ammo[key].worldImg.sprite =  
-    } else if(ammo[key].type === "ammo") {
+    } else if(ammo[key].type === "12gauge") {
         ammo[key].worldImg.sprite =  
-    } else if(ammo[key].type === "ammo") {
+    } else if(ammo[key].type === "556mm") {
         ammo[key].worldImg.sprite =  
-    } else if(ammo[key].type === "ammo") {
+    } else if(ammo[key].type === "45acp") {
         ammo[key].worldImg.sprite =  
     }
 })
