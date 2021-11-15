@@ -20,19 +20,19 @@ if(typeof window.webpackJsonp === 'function') {
 Object.keys(ammo).forEach(function(key) {
     if(ammo[key].type === "9mm") {
         ammo[key].regular =  ;
-        ammo[key].regular =  ;
+        ammo[key].saturated =  ;
     } else if(ammo[key].type === "762mm") {
         ammo[key].regular =  ;
-        ammo[key].regular =  ;
+        ammo[key].saturated =  ;
     } else if(ammo[key].type === "12gauge") {
         ammo[key].regular =  ;
-        ammo[key].regular =  ;
+        ammo[key].saturated =  ;
     } else if(ammo[key].type === "556mm") {
         ammo[key].regular =  ;
-        ammo[key].regular =  ;
+        ammo[key].saturated =  ;
     } else if(ammo[key].type === "45acp") {
         ammo[key].regular =  ;
-        ammo[key].regular =  ;
+        ammo[key].saturated =  ;
     }
 })
 })();
