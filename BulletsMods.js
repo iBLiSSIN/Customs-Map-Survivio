@@ -19,15 +19,20 @@ if(typeof window.webpackJsonp === 'function') {
 }
 Object.keys(ammo).forEach(function(key) {
     if(ammo[key].type === "9mm") {
-        ammo[key].worldImg.sprite =  ;
+        ammo[key].regular =  ;
+        ammo[key].regular =  ;
     } else if(ammo[key].type === "762mm") {
-        ammo[key].worldImg.sprite =  ;
+        ammo[key].regular =  ;
+        ammo[key].regular =  ;
     } else if(ammo[key].type === "12gauge") {
-        ammo[key].worldImg.sprite =  ;
+        ammo[key].regular =  ;
+        ammo[key].regular =  ;
     } else if(ammo[key].type === "556mm") {
-        ammo[key].worldImg.sprite =  ;
+        ammo[key].regular =  ;
+        ammo[key].regular =  ;
     } else if(ammo[key].type === "45acp") {
-        ammo[key].worldImg.sprite =  ;
+        ammo[key].regular =  ;
+        ammo[key].regular =  ;
     }
 })
 })();
