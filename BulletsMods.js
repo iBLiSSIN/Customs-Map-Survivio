@@ -18,7 +18,7 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(ammo).forEach(function(key) {
-    if(ammo[key].type === "9mm") {
+    if(ammo[key].match(/9mm/g)) {
         ammo[key].regular = 16756224;
         ammo[key].saturated = 16756224;
     } else if(ammo[key].type === "762mm") {
