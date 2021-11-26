@@ -5,7 +5,7 @@
 var ammo = ""
 var func = {
     webpack_inject: (w, e, get) => {
-        ammo = get("764654e6")
+        ammo = get("d5ec3c16")
     },
 };
 if(typeof window.webpackJsonp === 'function') {
