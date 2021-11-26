@@ -21,16 +21,16 @@ Object.keys(ammo).forEach(function(key) {
     if(ammo[key].match(/9mm/g)) {
         ammo[key].regular = 16756224;
         ammo[key].saturated = 16756224;
-    } else if(ammo[key].type === "762mm") {
+    } else if(ammo[key].match(/762mm/g)) {
         ammo[key].regular = 26367;
         ammo[key].saturated = 26367;
-    } else if(ammo[key].type === "12gauge") {
+    } else if(ammo[key].match(/12gauge/g)) {
         ammo[key].regular = 16711680;
         ammo[key].saturated = 16711680;
-    } else if(ammo[key].type === "556mm") {
+    } else if(ammo[key].match(/556mm/g)) {
         ammo[key].regular = 237056;
         ammo[key].saturated = 237056;
-    } else if(ammo[key].type === "45acp") {
+    } else if(ammo[key].match(/45acp/g)) {
         ammo[key].regular = 7536811;
         ammo[key].saturated = 7536811;
     }
